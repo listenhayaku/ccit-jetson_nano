@@ -1,0 +1,26 @@
+ip and port: 172.20.10.5 5002
+[server_listen]accept  ('172.20.10.5', 60849)
+[server_listen]accept  ('172.20.10.5', 60851)
+[main.init]__name__ =  __main__
+[node.client_init]connect done!
+[node.client_init]connect done!
+
+======init done======
+
+====block====debug:write_log port:5002
+id:0
+timestamp:0.0
+nonce:0
+prev_hash:0
+information.data:this is genesis block
+source:0.0.0.0:0
+=============
+hash:a2adb46910e95f3192a57c8c08b98c8dd177fa2e450ac7a17291754c6cee854d
+=============
+[blockchain.blockchain_stop]stop,len of blockqueue is  0
+===end===
+[main.end]blockchain.blockqueue =  []
+[main.end]len of blockchain.blockqueue =  0
+===end===
+[server_listen]stop
+[server_recv] exit <class 'str'>
